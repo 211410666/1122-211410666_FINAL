@@ -1,7 +1,7 @@
 import { getCurrentUser } from '../services/apiAuth';
 import { useEffect, useState } from 'react';
 const Dashboard_66 = () => {
-  const [userData, setUserData] = useState(null);
+  const [userData, setUserData] = useState([]);
 
   useEffect(() => {
     getCurrentUser()
