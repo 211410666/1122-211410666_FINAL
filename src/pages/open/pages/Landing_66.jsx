@@ -23,9 +23,17 @@ const Landing_66 = () => {
                   <li>
                     <Link
                       className='hover:text-accent-400 transition-colors'
+                      to='/landing'
+                    >
+                      Home_66
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className='hover:text-accent-400 transition-colors'
                       to='/cabins'
                     >
-                      Cabins
+                      Cabins_66
                     </Link>
                   </li>
                   <li>
@@ -33,7 +41,7 @@ const Landing_66 = () => {
                       className='hover:text-accent-400 transition-colors'
                       to='/about'
                     >
-                      About
+                      About_66
                     </Link>
                   </li>
                   <li>
@@ -41,7 +49,7 @@ const Landing_66 = () => {
                       className='hover:text-accent-400 transition-colors'
                       to='/contact'
                     >
-                      Contact us
+                      Contact us_66
                     </Link>
                   </li>
                   <li>
@@ -49,7 +57,7 @@ const Landing_66 = () => {
                       className='hover:text-accent-400 transition-colors'
                       to='/login'
                     >
-                      Login
+                      Login_66
                     </Link>
                   </li>
                 </ul>
